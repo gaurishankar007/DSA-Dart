@@ -36,10 +36,15 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
     - Binary search is a divide-and-conquer algorithm that efficiently locates a target value within a sorted array by repeatedly dividing the search interval in half.
     - It achieves a logarithmic time complexity of O(log n), making it significantly faster than linear search for large datasets.
     - ![Binary Search Image](https://miro.medium.com/v2/resize:fit:1200/1*M8nxu1oYQy2vpWRjlVdXNA.png)
-  - `Depth First Search`
+  - `Depth First Search (DFS)`
     - Depth-first search is a graph traversal algorithm that systematically explores the graph's branches, prioritizing depth over breadth, by visiting adjacent vertices recursively until it reaches a dead end.
     - ![Depth First Search Image](https://www.boardinfinity.com/blog/content/images/2022/10/9fa1119.jpg)
-  - `Breadth First Search`
+  - `Breadth First Search (BFS)`
+    - Breadth-first search (BFS) is a graph traversal algorithm that systematically explores the neighbor vertices of a starting vertex before moving on to the next level of neighbors.
+    - It prioritizes breadth over depth, visiting all vertices at a given distance from the starting vertex before proceeding to vertices farther away.
+    - ![Breadth First Search Image](https://cdn.hackr.io/uploads/posts/attachments/41Y3Tl3kaPqGDVBPKFjJ1dYYrA33iss48iMklm7h.png)
+  - BFS VS DFS
+    - ![BFS VS DFS Image](<https://media.geeksforgeeks.org/wp-content/uploads/20240219134945/bfs-vs-dfs-(1).png>)
 
 ## Big O
 

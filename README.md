@@ -8,7 +8,7 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
   - A stack is a collection of elements that allows adding and removing items only from one end, known as the top.
   - It follows the Last-In, First-Out (LIFO) principle, meaning the last element added is the first one to be removed.
 - `Queues`
-  - A queue is a data structure that follows the First-In, First-Out (FIFO) principle, where elements are added at one end, known as the rear, and removed from the other end, known  as the front.
+  - A queue is a data structure that follows the First-In, First-Out (FIFO) principle, where elements are added at one end, known as the rear, and removed from the other end, known as the front.
   - It maintains the order in which elements are added, ensuring that the oldest element is dequeued first.
 - `Linked Lists`
   - A linked list is a linear data structure consisting of nodes where each node contains a data element and a reference (or pointer) to the next node in the sequence.
@@ -17,6 +17,8 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
   - Hashing involves efficiently mapping data elements to unique keys using a hash function, allowing for fast retrieval, insertion, and deletion of values in data structures like hash tables.
   - It facilitates quick access to stored information by converting keys into indices, reducing search time complexity to nearly constant time on average.
 - `Trees`
+  - `Binary Tree` A binary tree is a tree in which each node can have at most two children, referred to as the left child and the right child.
+  - `Binary Search Tree` A binary search tree is a binary tree in which the value of each node in the left subtree is less than the value of the node, and the value of each node in the right subtree is greater than the value of the node.
 - `Graphs`
 - `Heaps`
 - `Greedy`

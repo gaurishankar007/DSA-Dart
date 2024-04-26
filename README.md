@@ -1,12 +1,13 @@
 # Data Structures and Algorithms (DSA)
 
-This is a data structures and algorithms (DSA) course with a strong focus on passing coding interviews for software engineering jobs.
+This is a data structures and algorithms (DSA) guidelines with a strong focus on passing coding interviews for software engineering jobs.
 
 ## Topics
 
 - `Stacks`
 - `Queues`
 - `Linked Lists`
+- `Hashing`
 - `Trees`
 - `Graphs`
 - `Heaps`

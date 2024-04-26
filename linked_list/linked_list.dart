@@ -62,7 +62,7 @@ class LinkedList<T> {
   /// Remove the last element from the linked list and return it.
   T remove() {
     if (head == null) {
-      throw Exception('Linked list is empty');
+      throw StateError('Linked list is empty');
     } else if (head!.next == null) {
       final value = head!.value;
       head = null;
@@ -85,7 +85,7 @@ class LinkedList<T> {
 
   /// Get the last element of the linked list without removing it.
   T peek() {
-    if (head == null) throw Exception('Linked list is empty');
+    if (head == null) throw StateError('Linked list is empty');
 
     /// If the head is not null, reference the node to the next node.
     Node currentNode = head!;

@@ -1,4 +1,4 @@
-# Data Structures and Algorithms (DSA)
+# Data Structures and Algorithms (DSA) 🌈
 
 This is a data structures and algorithms (DSA) guidelines with a strong focus on passing coding interviews for software engineering jobs.
 
@@ -26,6 +26,9 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
   - `Binary Search Tree` A binary search tree is a binary tree in which the value of each node in the left subtree is less than the value of the node, and the value of each node in the right subtree is greater than the value of the node.
   - ![Binary Search Tree Image](https://www.guru99.com/images/1/020820_0600_BinarySearc1.png)
 - `Graphs`
+  - A graph is a data structure that consists of a set of vertices (nodes) and a set of edges connecting these vertices.
+  - It's used to represent relationships or connections between objects, with edges typically denoting pairwise relationships or interactions.
+  - ![Graph Image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph%20Data%20Structure%20-%20Soni/add-vertex-operation-on-graph-in-data-structure.png)
 - `Heaps`
 - `Greedy`
 - `Searching`

@@ -16,21 +16,19 @@ void main() {
 }
 
 bool hasCycle(LinkedList<int> linkedList) {
-  bool isCycle = false;
   Node? currentNode = linkedList.head!;
 
-  if (currentNode.next == null) return isCycle;
+  if (currentNode.next == null) return false;
 
   final List<int> list = [];
   while (currentNode != null) {
     if (list.contains(currentNode.value)) {
-      isCycle = true;
-      break;
+      return true;
     }
 
     list.add(currentNode.value);
     currentNode = currentNode.next;
   }
 
-  return isCycle;
+  return false;
 }

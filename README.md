@@ -37,6 +37,8 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
     - It achieves a logarithmic time complexity of O(log n), making it significantly faster than linear search for large datasets.
     - ![Binary Search Image](https://miro.medium.com/v2/resize:fit:1200/1*M8nxu1oYQy2vpWRjlVdXNA.png)
   - `Depth First Search`
+    - Depth-first search is a graph traversal algorithm that systematically explores the graph's branches, prioritizing depth over breadth, by visiting adjacent vertices recursively until it reaches a dead end.
+    - ![Depth First Search Image](https://www.boardinfinity.com/blog/content/images/2022/10/9fa1119.jpg)
   - `Breadth First Search`
 
 ## Big O

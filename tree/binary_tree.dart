@@ -13,6 +13,9 @@ void main() {
   tree.insert(9);
 
   // Perform inOrder traversal to print elements
+  //    5
+  //  3   8
+  // 1 4 7 9
   print("InOrder traversal of the binary tree:");
   tree.inOrderTraversal(tree.root);
 }

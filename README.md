@@ -8,19 +8,14 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
   - A stack is a collection of elements that allows adding and removing items only from one end, known as the top.
   - It follows the Last-In, First-Out (LIFO) principle, meaning the last element added is the first one to be removed.
 - `Queues`
-  - A queue is a data structure that follows the First-In, First-Out (FIFO) principle,
-  - where elements are added at one end, known as the rear, and removed from the other end, known as the front.
+  - A queue is a data structure that follows the First-In, First-Out (FIFO) principle, where elements are added at one end, known as the rear, and removed from the other end, known  as the front.
   - It maintains the order in which elements are added, ensuring that the oldest element is dequeued first.
 - `Linked Lists`
-  - A linked list is a linear data structure consisting of nodes
-  - where each node contains a data element and a reference (or pointer) to the next node in the sequence.
-  - Unlike arrays, linked lists do not have a fixed size,
-  - and elements can be efficiently inserted or removed from any position within the list.
+  - A linked list is a linear data structure consisting of nodes where each node contains a data element and a reference (or pointer) to the next node in the sequence.
+  - Unlike arrays, linked lists do not have a fixed size, and elements can be efficiently inserted or removed from any position within the list.
 - `Hashing`
-  - Hashing involves efficiently mapping data elements to unique keys using a hash function,
-  - allowing for fast retrieval, insertion, and deletion of values in data structures like hash tables.
-  - It facilitates quick access to stored information by converting keys into indices,
-  - reducing search time complexity to nearly constant time on average.
+  - Hashing involves efficiently mapping data elements to unique keys using a hash function, allowing for fast retrieval, insertion, and deletion of values in data structures like hash tables.
+  - It facilitates quick access to stored information by converting keys into indices, reducing search time complexity to nearly constant time on average.
 - `Trees`
 - `Graphs`
 - `Heaps`

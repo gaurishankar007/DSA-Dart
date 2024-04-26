@@ -33,6 +33,9 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
 - `Greedy`
 - `Searching`
   - `Binary Search`
+    - Binary search is a divide-and-conquer algorithm that efficiently locates a target value within a sorted array by repeatedly dividing the search interval in half.
+    - It achieves a logarithmic time complexity of O(log n), making it significantly faster than linear search for large datasets.
+    - ![Binary Search Image](https://miro.medium.com/v2/resize:fit:1200/1*M8nxu1oYQy2vpWRjlVdXNA.png)
   - `Depth First Search`
   - `Breadth First Search`
 

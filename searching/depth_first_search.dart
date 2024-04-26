@@ -21,10 +21,12 @@ class Graph {
 
   Graph();
 
+  // Add a vertex to the graph
   void addVertex(int vertex) {
     adjacencyList[vertex] = [];
   }
 
+  // Add an edge between two vertices
   void addEdge(int source, int destination) {
     adjacencyList[source]?.add(destination);
   }

@@ -41,14 +41,14 @@ class Stack<T> {
 
   /// Remove the last element from the stack and return it.
   T pop() {
-    if (_stack.isEmpty) return throw Exception('Stack is empty');
+    if (_stack.isEmpty) return throw StateError('Stack is empty');
 
     return _stack.removeLast();
   }
 
   /// Get the last element of the stack without removing it.
   T peek() {
-    if (_stack.isEmpty) return throw Exception('Stack is empty');
+    if (_stack.isEmpty) return throw StateError('Stack is empty');
 
     return _stack.last;
   }
@@ -74,14 +74,14 @@ class StackNoTGrowable<T> {
 
   /// Add an element to the stack.
   void push(T item) {
-    if (_top == _size - 1) throw Exception('Stack is full');
+    if (_top == _size - 1) throw StateError('Stack is full');
 
     _items[++_top] = item;
   }
 
   /// Remove the last element from the stack and return it.
   T pop() {
-    if (_top == -1) return throw Exception('Stack is empty');
+    if (_top == -1) return throw StateError('Stack is empty');
 
     final value = _items[_top];
     _items[_top--] = _defaultItem;
@@ -90,7 +90,7 @@ class StackNoTGrowable<T> {
 
   /// Get the last element of the stack without removing it.
   T peak() {
-    if (_top == -1) return throw Exception('Stack is empty');
+    if (_top == -1) return throw StateError('Stack is empty');
     return _items[_top];
   }
 

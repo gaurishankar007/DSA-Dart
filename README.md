@@ -2,6 +2,26 @@
 
 This is a data structures and algorithms (DSA) guidelines with a strong focus on passing coding interviews for software engineering jobs.
 
+## Big O
+
+`Big O` notation in DSA is a way to measure the efficiency of algorithms.
+It provides a standardized method to express how the time or space taken by an algorithm grows with the size of the input.
+
+- `Time Complexity` Describes how the runtime of an algorithm scales with input size.
+  - `O(1)` -> Constant time
+  - `O(log n)` -> Logarithmic time
+  - `O(n)` -> Linear time
+  - `O(n^2), O(n^3)` -> Polynomial time
+  - `O(2^n), O(n!)` -> Exponential time
+- `Space Complexity` Describes how the memory usage of an algorithm scales with input size.
+  - `O(1)` -> Constant space
+  - `O(n)` -> Linear space
+  - `O(n^2), O(n^3)` -> Polynomial space
+  - `O(log n), O(n log n)` -> Logarithmic or linearithmic space
+
+Understanding `Big O` helps in choosing efficient algorithms and data structures,
+crucial for optimizing performance, especially with large datasets or performance-critical applications.
+
 ## Topics
 
 - `Stacks`
@@ -40,6 +60,9 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
     - The maximum element is at the root, facilitating quick retrieval of the maximum element.
   - ![Min/Max Heap Image](https://www.sahinarslan.tech/static/33612c8f7085780219124e552494212f/e46b2/heap-binary-heap-anatomy.webp)
 - `Greedy`
+  - A greedy algorithm decides what to do in each step, only based on the current situation, without a thought of how the total problem looks like.
+  - In other words, a greedy algorithm makes the locally optimal choice in each step, hoping to find the global optimum solution in the end.
+  - ![Greedy Technique Image](https://cdn.botpenguin.com/assets/website/Greedy_Algorithm_19db670e50.webp)
 - `Searching`
   - `Binary Search`
     - Binary search is a divide-and-conquer algorithm that efficiently locates a target value within a sorted array by repeatedly dividing the search interval in half.
@@ -54,23 +77,3 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
     - ![Breadth First Search Image](https://cdn.hackr.io/uploads/posts/attachments/41Y3Tl3kaPqGDVBPKFjJ1dYYrA33iss48iMklm7h.png)
   - BFS VS DFS
     - ![BFS VS DFS Image](<https://media.geeksforgeeks.org/wp-content/uploads/20240219134945/bfs-vs-dfs-(1).png>)
-
-## Big O
-
-`Big O` notation in DSA is a way to measure the efficiency of algorithms.
-It provides a standardized method to express how the time or space taken by an algorithm grows with the size of the input.
-
-- `Time Complexity:` Describes how the runtime of an algorithm scales with input size.
-  - `O(1)` -> Constant time
-  - `O(log n)` -> Logarithmic time
-  - `O(n)` -> Linear time
-  - `O(n^2), O(n^3)` -> Polynomial time
-  - `O(2^n), O(n!)` -> Exponential time
-- `Space Complexity:` Describes how the memory usage of an algorithm scales with input size.
-  - `O(1)` -> Constant space
-  - `O(n)` -> Linear space
-  - `O(n^2), O(n^3)` -> Polynomial space
-  - `O(log n), O(n log n)` -> Logarithmic or linearithmic space
-
-Understanding `Big O` helps in choosing efficient algorithms and data structures,
-crucial for optimizing performance, especially with large datasets or performance-critical applications.

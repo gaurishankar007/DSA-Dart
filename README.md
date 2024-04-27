@@ -27,7 +27,7 @@ crucial for optimizing performance, especially with large datasets or performanc
 - `Stacks`
   - A stack is a collection of elements that allows adding and removing items only from one end, known as the top.
   - It follows the Last-In, First-Out (LIFO) principle, meaning the last element added is the first one to be removed.
-  - ![Stack Image](https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_08_image-20.jpg)
+  - ![Stack Image](https://www.techgig.com/files/nicUploads/95261623711348.png)
 - `Queues`
   - A queue is a data structure that follows the First-In, First-Out (FIFO) principle, where elements are added at one end, known as the rear, and removed from the other end, known as the front.
   - It maintains the order in which elements are added, ensuring that the oldest element is dequeued first.

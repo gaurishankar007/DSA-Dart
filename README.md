@@ -30,6 +30,8 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
   - It's used to represent relationships or connections between objects, with edges typically denoting pairwise relationships or interactions.
   - ![Graph Image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph%20Data%20Structure%20-%20Soni/add-vertex-operation-on-graph-in-data-structure.png)
 - `Heaps`
+  - A heap is a specialized tree-based data structure that satisfies the heap property.
+  - There are two main types of heaps: min-heap and max-heap.
   - `Min-Heap`
     - In a min-heap, the key of each node is less than or equal to the keys of its children.
     - The minimum element is at the root, making it efficient to find the minimum element quickly.

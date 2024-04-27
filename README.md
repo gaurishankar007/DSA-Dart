@@ -36,7 +36,7 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
   - `Max-Heap`
     - In a max-heap, the key of each node is greater than or equal to the keys of its children.
     - The maximum element is at the root, facilitating quick retrieval of the maximum element.
-  - ![Min/Max Heap Image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221220165711/MinHeapAndMaxHeap1.png)
+  - ![Min/Max Heap Image](https://www.sahinarslan.tech/static/33612c8f7085780219124e552494212f/e46b2/heap-binary-heap-anatomy.webp)
 - `Greedy`
 - `Searching`
   - `Binary Search`

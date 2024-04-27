@@ -30,6 +30,13 @@ This is a data structures and algorithms (DSA) guidelines with a strong focus on
   - It's used to represent relationships or connections between objects, with edges typically denoting pairwise relationships or interactions.
   - ![Graph Image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Graph%20Data%20Structure%20-%20Soni/add-vertex-operation-on-graph-in-data-structure.png)
 - `Heaps`
+  - `Min-Heap`
+    - In a min-heap, the key of each node is less than or equal to the keys of its children.
+    - The minimum element is at the root, making it efficient to find the minimum element quickly.
+  - `Max-Heap`
+    - In a max-heap, the key of each node is greater than or equal to the keys of its children.
+    - The maximum element is at the root, facilitating quick retrieval of the maximum element.
+  - ![Min/Max Heap Image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221220165711/MinHeapAndMaxHeap1.png)
 - `Greedy`
 - `Searching`
   - `Binary Search`
